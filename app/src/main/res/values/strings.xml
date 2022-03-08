@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Salário Líquido</string>
+    <string name="salario_bruto">Salário Bruto:</string>
+    <string name="valida_salB">Informe seu salário bruto</string>
+    <string name="numero_dependentes">Número de Dependentes:</string>
+    <string name="valida_numDep">Informe seu número de Dependentes</string>
+    <string name="plano_saude">Plano de Saúde:</string>
+    <string name="plano1">Standard</string>
+    <string name="plano2">Básico</string>
+    <string name="plano3">Super</string>
+    <string name="plano4">Master</string>
+    <string name="outros">Outros Descontos</string>
+    <string name="VT">Vale Transporte:</string>
+    <string name="VA">Vale Alimentação:</string>
+    <string name="VR">Vale Refeição:</string>
+    <string name="sim">SIM</string>
+    <string name="nao">NÃO</string>
+    <string name="salario_liquido">Salário Líquido:</string>
+    <string name="irrf">IRRF:</string>
+    <string name="inss">INSS:</string>
+    <string name="result_sal_ruto">Seu salário bruto é %1$5.2f</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/salB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/salario_bruto" />
+
+        <TextView
+            android:id="@+id/plan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/plano_saude" />
+
+    <TextView
+        android:id="@+id/valeA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/VA" />
+
+    <TextView
+        android:id="@+id/valeT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/VT" />
+
+    <TextView
+        android:id="@+id/valeR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/VR" />
+
+    <TextView
+        android:id="@+id/text_irrf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/irrf" />
+
+    <TextView
+        android:id="@+id/text_inss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/inss" />
+
+        <TextView
+            android:id="@+id/sal_liq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/salario_liquido" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
